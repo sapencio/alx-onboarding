@@ -1,0 +1,17 @@
+Read num1,num2,num3
+If(num1 < num2)
+  If(num2 < num3)
+     Write num1,num2,num3
+  Else
+     If(num3 < num1)
+	Write num3,num1,num2
+     Else
+	Write num1,num3,num2
+Else
+   If(num1 < num3)
+     Write num2,num1,num3
+   Else
+     If(num3 < num2)
+       Write num3,num2,num1
+     Else
+       Write num2,num3,num1
