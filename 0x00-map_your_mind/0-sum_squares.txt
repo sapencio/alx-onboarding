@@ -1,0 +1,11 @@
+Accept the argument to represent n
+
+Sum=0
+
+For I=1 to n do
+
+  Sum=sum+I times I
+
+  Next I
+
+  Print Sum
