@@ -1,0 +1,6 @@
+
+Read x
+sum = 0
+While(x >= 0)
+  sum = x + sum
+  Read x
